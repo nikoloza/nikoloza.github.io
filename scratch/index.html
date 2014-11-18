@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -238,18 +238,18 @@
 <pre>
 <code class="language-markup">&lt;!-- header --&gt;
 &lt;div class="row"&gt;
-	&lt;div class="col-16"&gt;header&lt;/div&gt;
+	&lt;div class="col-16"&gt;・header&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;!-- container --&gt;
 &lt;div class="row"&gt;
-	&lt;div class="col-4"&gt;sidebar&lt;/div&gt;
-	&lt;div class="col-12"&gt;content&lt;/div&gt;
+	&lt;div class="col-4"&gt;・sidebar&lt;/div&gt;
+	&lt;div class="col-12"&gt;・content&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;!-- footer --&gt;
 &lt;div class="row"&gt;
-	&lt;div class="col-16"&gt;footer&lt;/div&gt;
+	&lt;div class="col-16"&gt;・footer&lt;/div&gt;
 &lt;/div&gt;</code>
 </pre>
 <!-- end -->
@@ -316,6 +316,24 @@
 				</div>
 			</div>
 		</div>
+
+		<h4>How to reference</h4>
+		<div class="content how-to-reference">
+			<p>You can anytime reference other library for UI components. It's very simple.</p>
+
+			<p>You only need to paste library's less files into <code>lib/libraryname</code> directory. Then add main file to <code>scratch/lib.less</code> file. <strong>Bootstrap</strong>'s example is provided there. Then you can decide which component you need to disable from scratch (with <code>scratch/scratch.less</code> file) or from included framework provided by them. It's all for avoid conflicts.</p>
+		</div>
+
+		<!-- <div class="content">
+			Nika Tomadze © 2014
+
+			<nav class="float right">
+				<a href="https://github.com/nikoloza">Github</a>
+				・
+				<a href="https://twitter.com/nnikoloza">Twitter</a>
+			</nav>
+		</div> -->
+
 	</section>
 
 	<!-- Javascripts -->
